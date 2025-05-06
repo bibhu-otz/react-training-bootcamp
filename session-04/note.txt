@@ -1,0 +1,65 @@
+
+JavaScript Scope :
+
+  - Global Scope
+   
+  - Function Scope
+
+  - Local Scope
+
+  var x =10;
+  function Sum(n1,n2)
+  {
+      var y=80;
+      console.log(x);
+  }
+ function Sub(n1,n2)
+  {
+      var z=90;
+      console.log(x);
+      console.log(y);
+  }
+
+
+  - What is Variable Hoisting ?
+
+    When we create  any variable using var keyword inside any local block then all the variable declaration automatically
+    move the top of the function.
+
+    Hoisting is a mechanism in JS through which all the declaration is moving to the top od the scope it may be gloabla scope or function scope.
+
+
+
+  - In JS when the code is executing it undergoes into two phase (Execution Context)
+
+    a. Declaration Phase (Creation)
+
+    b. Execution Phase  (Execution)
+
+
+  - What is the difference between var and let,const keyword ?
+
+    - var was old approach
+    - let and const introduced in ES6
+
+    - var is hoisted
+    - let doesn't hoisted
+
+    - var is function scoped
+    - let is local scoped
+
+    - we can create multiple variable with same name using var keyword with a scope
+    - We can not create multiple variable with same name using let keyword with a scope.
+
+    - It is always suggestd that use let keyword to declarare variable in JS/React
+
+
+
+=> JavaScript is dynamic typed language
+
+   The variable type is decided during run time.i.e the type of value we assign to the varibale.
+
+   let num = 5;
+
+   
+
